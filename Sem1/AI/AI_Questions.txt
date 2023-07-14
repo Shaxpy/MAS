@@ -1,0 +1,167 @@
+AI
+What is Artificial Intelligence?
+What is learning?
+What does “acting rationally” mean?
+Explain the Turing Test.
+What is an Agent? Describe its parts/components.
+
+How does an Agent evaluate its own performance?
+What is an Agent’s Environment?
+What kind of properties might an Environment have?
+What is a Deterministic and Stochastic mean?
+What type of Agent might be appropiate to implement an “intelligent”
+Vending Machine?
+What type of Agent might be appropiate to implement an Braitenberg
+Vehicle?
+What type of Agent might be appropiate to implement a Lunar Rover?
+What type of Agent might be appropiate to implement a Agent that can
+play “Mario Bros”?
+Mention some real world applications of AI.
+What is a “Model” inside a Model-based Agent?
+
+Heuristic
+What is a Heuristic (in general)?
+What is a Heuristic function?
+Explain Greedy Best-first search.
+Explain the A* search algorithm.
+What is an Admissible Heuristic?
+
+When does A* end the search process?
+When is A* complete?
+What is a Consistent Heuristic?
+What is the behaviour of A* with a Consistent Heuristic?
+
+How does the behaviour of A* change with different Heuristics?
+What does it mean that a heuristic dominates another heuristic?
+What is the computational complexity of A*?
+How can Heuristic functions be created?
+
+LOGIC
+What is the difference between Entailment and Implication?
+What is a model?
+What is soundness?
+What is completeness?
+What does logical equivalence mean?
+
+What is a valid sentence?
+What is the deduction theorem?
+What is a satisfiable sentence? What about a unsatisfiable one?
+What is “reductio ad absurdum”?
+When is useful to use Backward Chaining and when is useful to use
+Forward Chaining?
+
+What is Modus Ponens?
+What is Conjunctive Normal Form?
+What is Resolution? Explain it.
+What are Objects and Relations in FOL?
+What are quantifiers in FOL?
+
+What is a substitution in FOL?
+What is the Frame Problem?
+What is the Qualification Problem?
+What is the Ramification Problem?
+How Inference is performed in FOL?
+
+Local SEARCH; CSP ; GAMES
+What is Local Search?
+How is Local Search different from other Search Techniques that we have
+seen?
+How is the state space different in local search?
+What are iterative improvement algorithms?
+Mention some example problems that can be solved through Local Search.
+
+What is the idea of Hill-Climbing?
+Describe the typical “landscape” of the state space.
+What is the problem with algorithms like Hill-Climbing?
+How can this problem be fixed?
+
+What is the idea of Simulated Annealing?
+Explain the role of the temperature function in SA.
+Explain the role of randomness in SA.
+Describe the local beam search algorithm.
+Do algorithms like HC or SA always find the best solution?
+
+How do we use HC/SA in continuous state spaces?
+Explain the idea behind a Genetic Algorithm.
+What is crossover?
+How are genes selected in a GA?
+Do we use randomness in GAs?
+
+Constraint Satisfaction Problem
+Describe the structure of a Constraint Satisfaction Problem (CSP).
+What is a state in a CSP?
+What is the goal in a CSP?
+How are constraints represented?
+What types of CSP exist?
+
+Give some examples of real-world CSP’s
+Describe how a CSP can be solved by using search.
+What is the size of the search space?
+Describe the backtracking search algorithm.
+What heuristics can be used to improve the search process?
+
+How do we select which variable to assign next?
+How do we select which variable to assign next? How do we decide in
+what order should its values be tried?
+How can we detect inevitable failure early?
+How can we exploit the problem structure?
+What if the CSP has a tree structure?
+What other kinds of algorithms can be used to solve a CSP?
+
+GAMES
+What is a game?
+What is a zero-sum game?
+What is perfect information?
+What is a strategy?
+What is utility in the context of a game?
+
+What is the minimax theorem?
+How can Minimax be applied to play games?
+What is the time and space complexity of the Minimax algorithm?
+What are the properties of the Minimax algorithm?
+Explain α−βpruning.
+
+What is the time complexity of Minimax with α−βpruning?
+What other approachs can be used to use Minimax in real-world
+applications?
+What is a evaluation function?
+How can we deal with non-deterministic games?
+Explain the Expectminimax algorithm.
+
+SEARCH
+Define what is a “State”.
+Is it possible to have several goal states?
+If so, how do you select which is the “best”?
+What is the successor function?
+Why do we use search and state space to solve problems? 
+
+How does a search Agent “know” which is the best path to take?
+What is the definition of a Search Problem?
+What is a “solution” to a Search Problem?
+What is Abstraction and how does it relate to AI/Search? 
+
+What is a Graph? What is the difference with a Tree?
+Describe the Traveling Salesman Problem.
+Describe the 8-Queens problem.
+What does “Searching the state space” mean?
+Describe the Tree Search algorithm
+Why is Search difficult?
+How big a Search tree can be?
+What is the difference between a State and a Node?
+What is completeness?
+What is time complexity? 
+
+What is space complexity?
+Describe the Breadth-First Search Algorithm (BFS).
+What is the time and space complexity of BFS?
+Describe the Depth-First Search Algorithm (DFS).
+What is the time and space complexity of BFS? 
+
+What is the difference in the implementation of BFS and DFS?
+Can states be repeated? If yes, how can this be avoided?
+What are the differences in the properties of BFS and DFS?
+How can DFS be improved? What advantages/disadvantages does this
+have?
+What is Uniform Cost Search? 
+
+
